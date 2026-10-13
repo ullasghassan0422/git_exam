@@ -14,7 +14,8 @@ def divide(a: int, b: int) -> float:
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
-
+int a;
+int b;
 
 def main():
     print("Addition:", add(10, 5))
